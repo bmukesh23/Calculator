@@ -99,3 +99,7 @@ button:nth-child(17):active{
 button:nth-child(18):active{
     background-color: var(--active-child-bg);
 }
+
+.mode:active{
+    cursor: pointer;
+}
