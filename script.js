@@ -13,9 +13,10 @@ let prevOperand = previousOpernd.innerHTML;
 let operation;
 
 const displayNum = () => {
-    currentOpernd.innerText = formatNumber(currOperand);
+    currentOpernd.innerText = currOperand.toLocaleString("en");
+
     if (operation !== undefined) {
-        previousOpernd.innerText = `${formatNumber(prevOperand)} ${operation.toString("en")}`;
+        previousOpernd.innerText = `${prevOperand} ${operation}`;
     } else {
         previousOpernd.innerText = prevOperand;
     }
@@ -43,7 +44,7 @@ resetBtn.addEventListener("click", () => {
 
 const addNum = num => {
     if (num === "." && currOperand.includes(".")) return;
-    currOperand = currOperand.toString() + num.toString();
+    currOperand = currOperand + num;
 };
 
 const operationSelection = operate => {
@@ -56,10 +57,6 @@ const operationSelection = operate => {
     operation = operate;
     prevOperand = currOperand;
     currOperand = "";
-};
-
-const formatNumber = (num) => {
-    return Number(num).toLocaleString("en");
 };
 
 const calculatorOperation = () => {
