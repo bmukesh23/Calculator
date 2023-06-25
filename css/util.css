@@ -10,10 +10,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10em;
+    padding: 2em 10em;
     background-color: var(--main-bg);
 }
 
+/* light-theme */
 :root{
     --main-bg: rgb(211, 205, 205);
     --white-bg: rgb(255, 255, 255);
@@ -24,6 +25,7 @@ body{
     --active-child-bg: rgb(75, 73, 73);
 }
 
+/* dark-theme */
 [data-theme="dark"] {
     --main-bg: rgb(17, 25, 51);
     --white-bg: rgb(0, 0, 0);
