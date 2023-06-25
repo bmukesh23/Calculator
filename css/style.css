@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.mode{
+    color: var(--black-bg);
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: .5rem;
+}
+
+.user-input{
+    background-color: var(--white-bg);
+    color: var(--black-bg);
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-right: .6em;
+    overflow: hidden;
+}
+
+.previousOperand{
+    font-size: 15px;
+}
+
+.currentOperand{
+    font-size:xx-large;
+    font-weight: 700;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-rows: repeat(4, 80px);
+    grid-template-columns: repeat(4, 90px);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-bg);
+    padding: 1em 1em 1.8em;
+    border-radius: 10px;
+}
+
+.grid-container > button{
+    border: none;
+    margin: 0 .3rem;
+    padding: 1em 0;
+    border-radius: 8px;
+    background-color: var(--btn-bg);
+    color: var(--black-bg);
+    box-shadow: 0 3px var(--btn-box-shadow);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.column-span{
+    grid-column: span 2;
+}
+
+button:active{
+    transform: translateY(2px);
+    cursor: pointer;
+    background-color: var(--active-btn);
+}
+
+button:nth-child(17), button:nth-child(4) {
+    background-color: var(--black-bg);
+    box-shadow: 0 3px var(--btn-box-shadow);
+    color: var(--white-bg);
+    font-size: 18px;
+    padding: 17px 0;
+}
+
+button:nth-child(17), button:nth-child(18){
+    margin-top: .5rem;
+}
+
+button:nth-child(18) {
+    background-color: var(--black-bg);
+    box-shadow: 0 3px var(--btn-box-shadow);
+    color: var(--white-bg);
+}
+
+button:nth-child(4):active{
+    background-color: var(--active-child-bg);
+}
+
+button:nth-child(17):active{
+    background-color: var(--active-child-bg);
+}
+
+button:nth-child(18):active{
+    background-color: var(--active-child-bg);
+}
