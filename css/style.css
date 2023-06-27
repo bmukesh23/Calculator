@@ -85,7 +85,7 @@ button:nth-child(17) {
     background-color: var(--bg-17th);
     color: var(--white-clr);
     font-size: 18px;
-    padding: 17px 0;
+    padding: 20px 0;
 }
 
 button:nth-child(18){
