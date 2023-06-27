@@ -10,28 +10,50 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 5em 10em;
+    min-height: 100vh;
     background-color: var(--main-bg);
 }
 
 /* light-theme */
 :root{
-    --main-bg: rgb(211, 205, 205);
-    --white-bg: rgb(255, 255, 255);
-    --black-bg: rgb(0, 0, 0);
-    --btn-bg: rgb(229, 228, 224);
-    --btn-box-shadow: rgb(166, 156, 145);
-    --active-btn: rgb(193, 184, 184);
-    --active-child-bg: rgb(75, 73, 73);
+    --head-clr: rgb(71, 168, 168);
+    --main-bg: rgb(233, 230, 230);
+    --user-clr: rgb(255, 255, 255);
+    --container-clr: rgb(255, 255, 255);
+    --black-clr: rgb(0, 0, 0);
+    --white-clr: rgb(255, 255, 255);
+    --btn-bg: rgb(240, 239, 239);
+    --active-btn:rgb(188, 183, 183);
+    --bg-4th:rgb(203, 238, 225);
+    --clr-4th: rgb(33, 143, 103);
+    --bg-17th: rgb(87, 79, 79);
+    --bg-18th:rgb(248, 217, 222);
+    --clr-18th:rgb(162, 98, 106);
+    --active-4th: rgb(151, 210, 189);
+    --active-17th: rgb(54, 47, 47);
+    --active-18th: rgb(225, 177, 185);
+
 }
 
 /* dark-theme */
 [data-theme="dark"] {
-    --main-bg: rgb(17, 25, 51);
-    --white-bg: rgb(0, 0, 0);
-    --black-bg: rgb(255, 255, 255);
-    --btn-bg: rgb(44, 55, 105);
-    --btn-box-shadow: rgb(120, 96, 227);
-    --active-btn: rgb(95, 82, 167);
-    --active-child-bg: rgb(163, 151, 151);
+    --head-clr: rgb(255, 165, 0);
+    --main-bg: rgb(38, 37, 77);
+    --user-clr: rgb(30, 30, 30);
+    --container-clr:rgb(30, 30, 30);
+    --black-clr: rgb(255, 255, 255) ;
+    --white-clr: rgb(237, 229, 229);
+    --btn-bg: rgb(52, 52, 52); 
+    --active-btn: rgb(88, 85, 85) ;
+    --bg-4th:rgb(203, 238, 225);
+    --clr-4th: rgb(33, 143, 103);
+    --bg-17th: rgb(203, 145, 36) ; 
+    --bg-18th: rgb(109, 109, 109);
+    --clr-18th: rgb(255, 255, 255);
+    --active-17th: rgb(138, 100, 29);
+    --active-18th: rgb(63, 59, 59);
+}
+
+.child{
+    display: inline-block;
 }

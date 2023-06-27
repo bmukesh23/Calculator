@@ -15,8 +15,13 @@
 
 <body class="flex-center">
     <div class="main-container">
-        <div class="mode" onclick="chMode()">
-            <i id="mode" class="uil uil-moon"></i>
+        <div class="theme">
+            <div class="child | header">
+                <p>Calculator</p>
+            </div>
+            <div class="child | toggle" onclick="chMode()">
+                <i id="mode" class="uil uil-moon"></i>
+            </div>
         </div>
         <div class="user-input">
             <div data-previousOperand class="previousOperand"></div>
@@ -40,7 +45,7 @@
             <button data-operator>/</button>
             <button data-operator>×</button>
             <button data-reset class="column-span">RESET</button>
-            <button data-output class="column-span">=</button>
+            <button data-output>=</button>
         </div>
     </div>
 

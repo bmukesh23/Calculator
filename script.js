@@ -8,8 +8,8 @@ const resetBtn = document.querySelector("[data-reset]");
 const btn = document.querySelectorAll("[data-num]");
 const operatorBtn = document.querySelectorAll("[data-operator]");
 
-let currOperand = currentOpernd.innerHTML;
 let prevOperand = previousOpernd.innerHTML;
+let currOperand = currentOpernd.innerHTML;
 let operation;
 
 const displayNum = () => {
