@@ -18,10 +18,15 @@
     
     .grid-container > button {
         margin: 0 5px;
-        padding: 15px 0;
+        padding: .9em 0;
     }
 
     button:nth-child(17), button:nth-child(18) {
-        margin-top: .5rem;
-    }     
+        margin-top: .3rem;
+    }    
+    
+    button:nth-child(17){
+        padding-top: .8em;
+        padding-bottom: .9em;
+    }
 }

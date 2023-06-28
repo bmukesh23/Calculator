@@ -7,16 +7,16 @@
 }
 
 .theme{
+    display: flex;
+    justify-content: space-between;
     padding: .5em;
 }
 
 .header{
     color: var(--head-clr);
-    float: left;
 }
 
 .toggle{
-    float: right;
     color: var(--black-clr);
 }
 
@@ -88,13 +88,14 @@ button:nth-child(17) {
     background-color: var(--bg-17th);
     color: var(--white-clr);
     font-size: 18px;
-    padding: 18px 0;
+    padding: 1.1em 0;
     margin-top: .2rem;
 }
 
 button:nth-child(18){
     background-color:var(--bg-18th);
     color:var(--clr-18th);
+    margin-top: .2rem;
 }
 
 .toggle{
