@@ -70,9 +70,12 @@
     grid-column: span 3;
 }
 
+button{
+    cursor: pointer;
+}
+
 button:active{
     transform: translateY(2px);
-    cursor: pointer;
     background-color: var(--active-btn);
 }
 
@@ -85,7 +88,8 @@ button:nth-child(17) {
     background-color: var(--bg-17th);
     color: var(--white-clr);
     font-size: 18px;
-    padding: 20px 0;
+    padding: 18px 0;
+    margin-top: .2rem;
 }
 
 button:nth-child(18){
@@ -93,7 +97,7 @@ button:nth-child(18){
     color:var(--clr-18th);
 }
 
-.toggle:active{
+.toggle{
     cursor: pointer;
 }
 
