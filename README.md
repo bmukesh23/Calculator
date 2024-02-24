@@ -1,5 +1,5 @@
 # 🧮 Calxify
-A fully responsive website where you can use a calculator with light and dark theme. It works to add numbers, subtract numbers, multiply numbers and divide numbers. If you need to clear all or delete some numbers, then there is a button for that too.
+A fully responsive website where you can use a calculator with light and dark theme. It works to add, subtract, multiply and divide numbers. If you need to clear all or delete some numbers, then there is a button for that too.
 
 
 ## The Background behind this project💡
